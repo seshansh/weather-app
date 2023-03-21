@@ -1,0 +1,60 @@
+.right{
+    flex: 1;
+    backdrop-filter: blur(20px);
+    color: rgba(255, 255, 255,.5);
+}
+.weatherdetail{
+    /* display: flex; */
+    margin-top: 30px;
+}
+.cloud{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.upperComponent{
+    display:flex;
+    justify-content: space-between;
+}
+.middleComponent{
+    line-height: 1.8em;
+    color: #ccc;
+    margin: 40px 0px 40px 0px;
+
+}
+.lowerContener{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    line-height: 1em;
+}
+.cloud1{
+    color: rgb(255, 255, 255);
+}
+
+::placeholder { 
+    color: #ccc;
+    opacity: 1;
+  }
+
+input {
+    width: 380px;
+    height: 40px;
+    color:#ccc;
+    font-size: large;
+    margin: 20px 10px 0px 0px;
+    border: none;
+    border-bottom: 3px solid gray;
+    padding: 0;
+    background: transparent;
+    outline: none;
+    text-decoration: none !important;
+  }
+
+  .clickablePara:hover{
+    cursor: pointer;
+    color: #fff;
+    
+  }
